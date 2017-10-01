@@ -39,7 +39,8 @@ defmodule PhoenixDeploy.Mixfile do
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:distillery, "~> 1.5", runtime: false}
+      {:distillery, "~> 1.5", runtime: false},
+      {:mix_docker, "~> 0.5.0"}
     ]
   end
 
